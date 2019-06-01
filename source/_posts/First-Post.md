@@ -19,3 +19,4 @@ Next steps :
 * add ssl support 
 * use a CDN distribution
 * PWA integration
+* Coucou Math
