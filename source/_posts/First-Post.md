@@ -13,4 +13,8 @@ This blog is :
 * Under version control; content included 
 * Using CI pipeline deployement  
 
-### Test Ju
+[Welcome on Delsoir.com](http://www.delsoir.com)
+
+Next steps : 
+* add ssl support 
+* use a CDN distribution
