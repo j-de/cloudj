@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: node:10.16.0-jessie
+      - image: jtredoux/node-aws
     working_directory: ~/cloudj
     steps:
       - checkout
@@ -22,14 +22,6 @@ jobs:
       - run:
           name: Generate static website
           command: hexo generate
-      - run:
-          name: Install AWS CLI
-          command: |
-            cd /tmp
-            apt-get install -y python python-pip
-            curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
-            unzip awscli-bundle.zip
-            ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
       - run:
           name: Push to S3 bucket
           command: cd ~/cloudj/public/ && aws s3 sync . s3://www.delsoir.com --region=eu-west-3
