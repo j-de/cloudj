@@ -19,4 +19,5 @@ Next steps :
 * add ssl support 
 * use a CDN distribution
 * PWA integration
-* Coucou Math
+* Add dynamic functions with Lambda
+* theming 
