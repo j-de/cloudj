@@ -1,6 +1,7 @@
 ---
 title: A First Serverless Blog Post 
 date: 2019-06-01 13:05:43
+updated: 2019-06-02 10:41:43 
 tags:
 ---
 
