@@ -12,19 +12,41 @@ If this is displayed; the pipeline should be flowing well.
 ### This blog is : 
 * Completely serverless and scalable, it should virtually be able to hold the reddit frontpage trafic 
 * Under version control; content included 
-* Using CI pipeline deployement  
+* Using an automated CI pipeline deployement  
+* A fully featured Progressive Web App working offline. 
+* Using SSL Encryption
+* Using a CDN for best delivery performances 
 
 [Welcome on Delsoir.com](http://www.delsoir.com)
 
 ### Next steps : 
-* add ssl support 
-* use a CDN distribution
-* PWA integration
+* ~~add ssl support~~ 
+* ~~use a CDN distribution~~
+* ~~PWA integration~~
 * Add dynamic functions with Lambda
-* theming 
+* theming & best practices
+* Full H2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Layout Tests 
+Below are some features testing for blog posting. 
 	
 #### HTML
 {% codeblock lang:html %}
@@ -118,4 +140,3 @@ Reference-style:
 
 ##### Twitter
 {% oembed https://twitter.com/PlayStation/status/1134145873733009409 %}
-{% oembed https://twitter.com/hashtag/belgique %}
