@@ -114,7 +114,7 @@ Reference-style:
 ##### Imgur Gallery
 {% oembed https://imgur.com/gallery/UXpqVsh %}
 ##### Youtube 
-{% oembed https://youtu.be/aVtO8uQrPXc 800 600 %}
+{% oembed https://youtu.be/aVtO8uQrPXc %}
 
 ##### Twitter
 {% oembed https://twitter.com/PlayStation/status/1134145873733009409 %}
