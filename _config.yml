@@ -8,7 +8,7 @@ subtitle: Another IT blog
 description:
 keywords:
 author: Julien Delsoir
-language:
+language:en
 timezone:
 
 # URL
@@ -125,6 +125,7 @@ pwa:
     preload:
       urls:
         - /
+        - /css/style.css
       posts: 5
     opts:
       networkTimeoutSeconds: 5
