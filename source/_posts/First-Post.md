@@ -17,7 +17,7 @@ If this is displayed; the pipeline should be flowing well.
 * Using SSL Encryption
 * Using a CDN for best delivery performances 
 
-[Welcome on Delsoir.com](http://www.delsoir.com)
+[Welcome on Delsoir.com](https://www.delsoir.com)
 
 ### Next steps : 
 * ~~add ssl support~~ 
@@ -26,23 +26,6 @@ If this is displayed; the pipeline should be flowing well.
 * Add dynamic functions with Lambda
 * theming & best practices
 * Full H2 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Layout Tests 
@@ -78,11 +61,6 @@ Below are some features testing for blog posting.
         while(true){
                 echo "ce code est stupide";
         }
-        echo "coucouju";
-        while(true){
-                echo "ce code est stupide";
-        }
-
 
 ?>
 {% endcodeblock %}
@@ -134,7 +112,8 @@ Reference-style:
 #### Embeds
 
 ##### Imgur Gallery
-{% oembed https://imgur.com/gallery/UXpqVsh %}
+{% oembed https://imgur.com/gallery/Ckte9yc %}
+
 ##### Youtube 
 {% oembed https://youtu.be/aVtO8uQrPXc %}
 
