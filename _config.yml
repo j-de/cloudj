@@ -89,7 +89,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: icon.png
+  icon: /images/icon-96x96.png
 
 pwa:
   manifest:

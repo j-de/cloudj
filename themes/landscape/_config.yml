@@ -30,7 +30,7 @@ show_count: false
 # Miscellaneous
 google_analytics: UA-139140496-1
 gauges_analytics:
-favicon: /favicon.png
+favicon: /images/icon-96x96.png
 twitter: CorreN
 google_plus:
 fb_admins:
