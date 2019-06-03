@@ -5,8 +5,8 @@
 # Site
 title: CloudJ
 subtitle: Another IT blog
-description:
-keywords:
+description: Another IT Blog
+keywords: Serverless, PWA, AWS, CI
 author: Julien Delsoir
 language: en
 timezone:
