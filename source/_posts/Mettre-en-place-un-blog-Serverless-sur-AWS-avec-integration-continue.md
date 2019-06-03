@@ -40,7 +40,7 @@ Au final, après pas mal de recherches sur les méthodes et bonnes pratiques, ca
 
 ![Wordpress Haute Disponibilité sur AWS][wordpress-ha-aws]
 
-Un peu complexe mais ca fait le job; 
+Un peu complexe mais ca fait le job :
 * Des machines virtuelles hébergent le code php de Wordpress, elles sont réparties sur plusieurs datacenters en autoscaling groups pour faire face à la charge s'il y a lieu.  
 * Un cache frontal avec le CDN CloudFront
 * Un cache applicatif avec Memcached (Elasticache) 
@@ -108,9 +108,9 @@ Arrivé ici, on dispose d'un site web de quelques lignes mais qui est prêt pour
 * ~~haute disponibilité~~: Cloudfront assure la mise en cache des éléments statiques pour ne pas trop solliciter le bucket.  
 * ~~sécurité~~: Qui peut hacker un site statique ?
 * ~~temps de réponse~~: CloudFront, avec les nombreuses edges locations d'Amazon, assure un temps de réponse minimum à l'utilisateur
-* ~~pas cher~~: La tarification des services AWS se fait en _Pay as Go_ 
-  * S3 : en fonction du nombre de requetes (limité via CloudFront) 
-  * CloudFront : en fonction du trafic que génère mon site 
+* ~~pas cher~~: La tarification de la plupart des services AWS se fait en _Pay as You Go_ et le premier _Tier_ d'usage est généralement gratuit. 
+  * S3 : en fonction du nombre de requêtes (limité via le cache de CloudFront) et de la quantité stockée. 
+  * CloudFront : en fonction du trafic que génère mon site.  
   * le certificat SSL HTTPS public est gratuit chez Amazon.   
 * backup en cas de problème : TODO
 * facile à maintenir : TODO
@@ -127,7 +127,7 @@ Je ne veux pas :
 #### Here comes Hexo
 
 [Hexo][6] se définit lui même comme étant un _blog framework_ et utilise le [_Markdown_][8] comme format pour créer ses pages html. 
-En somme, avec Hexo, on crée des fichier _.md_ et le logiciel, en NodeJS, se charge lui même de la conversion. Ceux qui sont habitué à utiliser GitLab connaissent bien ces fichiers, le README.md étant souvent créés par défaut à l'initialisation du repertoire. Les articles sont donc stockés dans des fichiers et non en base de données... bienvenue au versionning (~~backup~~). 
+En somme, avec Hexo, on crée des fichier _.md_ et le logiciel, en NodeJS, se charge lui même de la conversion html. Ceux qui sont habitué à utiliser GitHub connaissent bien ces fichiers, le README.md étant souvent créés par défaut à l'initialisation d'un repository. Les articles sont donc stockés dans des fichiers et non en base de données... bienvenue au versionning (~~backup~~). 
 Je vous renvoie simplement à l'article ["Build a Serverless Production-Ready Blog"][5] pour démarrer rapidement un projet Hexo. 
 
 Les étapes nécessaires sont : 
@@ -152,18 +152,42 @@ A chaque commit poussé sur GitHub, CircleCI va :
 * générer le site statique 
 * envoyer les modifications sur Amazon S3 
 
-Si je fais la moindre erreur dans mes configurations, le build echouera et mon site ne sera pas mis à jour. 
-Il me suffit d'un accès à mon compte github pour pouvoir publier de nouveaux articles ou modifier le site; tout le reste se fait automatiquement. Un simple git push suffit à démarrer la procédure de publication. 
-Je dispose désormais d'un timeline qui reprend tous les update que j'ai réalisé sur mon site. 
+L'ensemble prend environs 30s par build au lancement du blog, j'ai donc droit à ~2000 déploiements par mois gratuitement. 
 
-NB: l'image docker utilisée dans la config de CircleCI m'a posé problème les dépendances pour installer AWS-CLI ne n'étaient pas rencontrées. J'ai fini par utiliser [cette image docker][10] dans ma configuration. 
+NB: 
+* l'image docker utilisée dans la config de CircleCI m'a posé problème les dépendances pour installer AWS-CLI n'étaient pas rencontrées. J'ai fini par utiliser [cette image docker][10] dans ma configuration. 
+* il faudra [créer un utilisateur IAM sur AWS][13] et lui [assigner la permission d'écrire dans votre bucket S3][11]. Vous recevrez les credentials nécessaires à renseigner dans les settings de votre projet CircleCI. **Ne mettez jamais vos access key AWS dans le code de votre projet, des bots scannent github à la recherche de ces identifiants.**  
+
+Si je fais la moindre erreur dans mes configurations, le build échouera et mon site ne sera pas mis à jour. 
+Il me suffit d'un accès à mon compte github pour pouvoir publier de nouveaux articles ou modifier le site; tout le reste se fait automatiquement. Un simple git push suffit à démarrer la procédure de publication. 
+Et cerise sur le gateau, je dispose désormais d'une timeline qui reprend tous les update que j'ai réalisé sur mon site. 
 
 ![Le workflow de publication sur CircleCI][circleCI-workflow]
 
 Et la boucle est bouclée : ~~facile à maintenir~~ DONE  
 
+## Conclusion 
 
-  
+#### Les qualités
+* Mise en place rapide, quelques heures pour boucler le tout.  
+* Tous les procédés sont standards, on peut envisager sereinement de changer chaque brique du système. 
+GitHub => GitLab
+CircleCI => GitLabCI
+AWS => Azure / GCP / autre hébergeur
+* Le coût opérationnel est pratiquement nul. Seule la gestion DNS avec Route53 coûte 0,50$/mois. Pour les autres services utilisés, tout est gratuit tant qu'on reste sous certains paliers (Je limite d'ailleurs en hébergeant les images ci dessus sur imgur) _À valider dans le temps le réel coût/visiteur, nous sommes au jour 2. A l'heure d'écrire ces lignes, je n'ai rien payé en dehors de la gestion DNS_.     
+* Le front end est complètement fiable en termes de performances et de sécurité car statique.  
+
+#### Les défauts 
+* N'importe qui ne peut pas administrer le blog facilement, il faut pouvoir écrire le Markdown pour rédiger des articles et connaitre git pour publier; c'est définitivement un outil pour les initiés en l'état. **MAIS** Il existe pas mal de [logiciels qui produisent du markdown][11] et on peut envisager facilement un client qui automatiserait ces processus. 
+* Aucune fonction dynamique, mais c'est aussi ce qui permet d'être complètement tranquille au niveau sécurité et stabilité. Les eventuelles fonctionnalités dynamiques devront etre gérées par des microservices dédiés comme le veut l'architecture. 
+* A grande échelle (site avec des milliers/millions d'articles-pages-tags-categories et de nombreux éditeurs), la publication faite par Hexo risque de prendre beaucoup de temps et donc de limiter la vitesse de publication d'un article. 30 secondes, c'est de toute manière déja trop pour un éditeur professionnel. 
+
+La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre homescreen et celui ci fonctionnera offline sur votre smartphone. Je vous envoie donc ces lignes avec 
+
+{% codeblock lang:bash %}
+> git push
+{% endcodeblock %}
+
   
 [1]: https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
 [2]: https://www.terraform.io/
@@ -175,6 +199,9 @@ Et la boucle est bouclée : ~~facile à maintenir~~ DONE
 [8]: https://en.wikipedia.org/wiki/Markdown
 [9]: https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue
 [10]: https://hub.docker.com/r/jtredoux/node-aws/
+[11]: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_change-permissions.html
+[12]: https://stackedit.io/app
+[13]: https://docs.aws.amazon.com/fr_fr/IAM/latest/UserGuide/id_users_create.html
 [cloudj-techno]: https://i.imgur.com/7KeZY4m.png
 [cloudj-delivery]: https://i.imgur.com/Bj7LAng.png 
 [wordpress-ha-aws]: https://i.imgur.com/GEIczFb.png
