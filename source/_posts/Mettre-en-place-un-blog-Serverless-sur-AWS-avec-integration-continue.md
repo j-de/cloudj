@@ -126,6 +126,8 @@ Je ne veux pas :
 
 #### Here comes Hexo
 
+![Hexo a blog framework][hexo-log]
+
 [Hexo][6] se définit lui même comme étant un _blog framework_ et utilise le [_Markdown_][8] comme format pour créer ses pages html. 
 En somme, avec Hexo, on crée des fichier _.md_ et le logiciel, en NodeJS, se charge lui même de la conversion html. Ceux qui sont habitué à utiliser GitHub connaissent bien ces fichiers, le README.md étant souvent créés par défaut à l'initialisation d'un repository. Les articles sont donc stockés dans des fichiers et non en base de données... bienvenue au versionning (~~backup~~). 
 Je vous renvoie simplement à l'article ["Build a Serverless Production-Ready Blog"][5] pour démarrer rapidement un projet Hexo. 
@@ -165,6 +167,8 @@ Et cerise sur le gateau, je dispose désormais d'une timeline qui reprend tous l
 ![Le workflow de publication sur CircleCI][circleCI-workflow]
 
 Et la boucle est bouclée : ~~facile à maintenir~~ DONE  
+
+Le résultat, vous l'avez devant les yeux.
 
 ## Conclusion 
 
@@ -209,4 +213,4 @@ La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre ho
 [delsoircom-v1]: https://i.imgur.com/8y0iWrc.png
 [onlyone]: https://i.imgur.com/kSBNkPr.png
 [circleCI-workflow]: https://i.imgur.com/1hBpup1.png
-
+[hexo-log]: https://oded.blog/images/2017/07/hexo-logo.png
