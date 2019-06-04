@@ -1,6 +1,6 @@
 ---
 title: A bit of music / June 2019
-date: 2019-06-04 15:07:25
+date: 2019-06-02 15:07:25
 tags:
   - Music
 category:
