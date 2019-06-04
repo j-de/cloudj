@@ -136,3 +136,5 @@ pwa:
       - pattern: !!js/regexp /\//
         strategy: networkFirst
   priority: 5
+sitemap:
+  path: sitemap.xml
