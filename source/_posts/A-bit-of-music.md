@@ -11,6 +11,8 @@ Some music I liked recently
 
 <!-- more --> 
 
+C'est très très électronique mais c'est mon trip du moment; donc passez votre chemin si ca ne vous plait pas ;-p
+
 ## N'to - The Morning After 
 {% oembed https://www.youtube.com/watch?v=QDFXIe3eyWg %}
 
@@ -26,6 +28,9 @@ Extrait du nouvel et excellent album Orchestra; à voir en live avec les musicie
 
 ## Estelle ft Kanye West - American Boy (Lost Frequencies Remix)
 {% oembed https://www.youtube.com/watch?v=f2qG2zgEeXg %}
+
+## Golden Features - Always
+{% oembed https://www.youtube.com/watch?v=ZHYFY6An4QU %}
 
 ## Mama Laudaaa - Almklausi (offizielles Video) | Mama Lauda
 {% oembed https://www.youtube.com/watch?v=vloUhu7QxmU %}
