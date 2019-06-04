@@ -152,7 +152,7 @@ A chaque commit poussé sur GitHub, CircleCI va :
 * générer le site statique 
 * envoyer les modifications sur Amazon S3 
 
-L'ensemble prend environs 30s par build au lancement du blog, j'ai donc droit à ~2000 déploiements par mois gratuitement. 
+L'ensemble prend environs 30s par build au lancement du blog, j'ai donc droit à ~2000 déploiements CircleCI par mois gratuitement. 
 
 NB: 
 * l'image docker utilisée dans la config de CircleCI m'a posé problème les dépendances pour installer AWS-CLI n'étaient pas rencontrées. J'ai fini par utiliser [cette image docker][10] dans ma configuration. 
