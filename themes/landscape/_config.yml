@@ -2,6 +2,8 @@
 menu:
   Home: /
   Architecture: /categories/Architecture/
+  Web Development: /categories/Web-Development/
+  Culture: /categories/Culture
   Archives: /archives
 
 rss: /atom.xml
