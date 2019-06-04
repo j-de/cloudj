@@ -8,12 +8,13 @@ subtitle: Another IT blog
 description: Another IT Blog
 keywords: Serverless, PWA, AWS, CI
 author: Julien Delsoir
+email: julien.delsoir@gmail.com
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.delsoir.com
+url: https://www.delsoir.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

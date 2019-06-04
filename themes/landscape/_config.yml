@@ -1,7 +1,9 @@
 # Header
 menu:
   Home: /
+  Architecture: /categories/Architecture/
   Archives: /archives
+
 rss: /atom.xml
 
 # Content
