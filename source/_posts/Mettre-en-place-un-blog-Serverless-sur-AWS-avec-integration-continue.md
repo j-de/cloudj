@@ -169,6 +169,7 @@ Et cerise sur le gateau, je dispose désormais d'une timeline qui reprend tous l
 Et la boucle est bouclée : ~~facile à maintenir~~ DONE  
 
 Le résultat, vous l'avez devant les yeux.
+![CloudJ v1][cloudj1]
 
 ## Conclusion 
 
@@ -214,3 +215,4 @@ La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre ho
 [onlyone]: https://i.imgur.com/kSBNkPr.png
 [circleCI-workflow]: https://i.imgur.com/1hBpup1.png
 [hexo-log]: https://oded.blog/images/2017/07/hexo-logo.png
+[cloudj1]: https://i.imgur.com/EeQuMM7.png
