@@ -21,7 +21,7 @@ Maintenant qu'on a un [site rapide][serverless-blog], nous allons voir comment a
 L'idée principale est de dédier sa propre fenêtre à votre site web pour donner à vos utilisateurs une expérience full screen. 
 On propose à l'utilisateur d'ajouter votre site à son écran d'accueil et voilà, vous avez une application installée en tout point similaire à ce qu'on obtenir sur un appstore en ligne. 
 ![Ce que ca donne sur ce blog][pwa-cloudj]
-Au de la compatibilité sur toutes les plateformes et l'énergie que met Google à mettre cette technologie en avant, je pense qu'on n'a pas fini d'en parler. 
+Au delà de la compatibilité sur toutes les plateformes et de l'énergie que met Google à mettre cette technologie en avant, je pense qu'on n'a pas fini d'en parler, tellement ca améliore l'expérience de l'utilisateur final.
 
 ## Les avantages 
 * Plus besoin de maintenir des applications natives pour être présent directement sur l'écran de vos utilisateur. 
