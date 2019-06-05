@@ -138,3 +138,5 @@ pwa:
   priority: 5
 sitemap:
   path: sitemap.xml
+disqus_shortname: cloudj
+comments: true
