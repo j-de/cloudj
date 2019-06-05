@@ -16,6 +16,7 @@
         <% if (theme.excerpt_link){ %>
           <p class="article-more-link">
             <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+            <a href="<%- url_for(post.path) %>#disqus_thread">comments</a>
           </p>
         <% } %>
       <% } else { %>
