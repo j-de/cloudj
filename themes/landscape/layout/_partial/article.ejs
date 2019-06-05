@@ -16,7 +16,6 @@
         <% if (theme.excerpt_link){ %>
           <p class="article-more-link">
             <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
-            <a href="<%- url_for(post.path) %>#disqus_thread">comment</a>
           </p>
         <% } %>
       <% } else { %>
@@ -39,7 +38,7 @@
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">
   <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments</a></noscript>
   </div>
 </section>
 <% } %>
