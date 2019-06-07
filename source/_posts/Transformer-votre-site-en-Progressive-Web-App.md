@@ -42,7 +42,7 @@ Avant d'entrer dans le vif du sujet, il est important que votre site respecte pl
 
 ### 1ere étape; le manifest.json 
 
-Ci dessous le manifest.json de ce blog : 
+Ci-dessous le manifest.json de ce blog : 
 {% codeblock lang:javascript %}
 {
 name: "CloudJ",
