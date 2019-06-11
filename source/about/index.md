@@ -5,7 +5,7 @@ date: 2019-06-01 13:39:07
 <script>
 function submitToAPI(e) {
        e.preventDefault();
-       var URL = "https://vgvgd2ah3g.execute-api.eu-west-3.amazonaws.com/contactme";
+       var URL = "https://vgvgd2ah3g.execute-api.eu-west-3.amazonaws.com/production/contactme";
 
             var Namere = /[A-Za-z]{1}[A-Za-z]/;
             if (!Namere.test($("#name-input").val())) {
@@ -41,7 +41,7 @@ function submitToAPI(e) {
 
        $.ajax({
          type: "POST",
-         url : "https://vgvgd2ah3g.execute-api.eu-west-3.amazonaws.com/contactme",
+         url : "https://vgvgd2ah3g.execute-api.eu-west-3.amazonaws.com/production/contactme",
          dataType: "json",
          crossDomain: "true",
          contentType: "application/json; charset=utf-8",
