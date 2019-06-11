@@ -52,21 +52,6 @@ Below are some features testing for blog posting.
 {% endcodeblock %}
 
 
-####  PHP
-{% codeblock lang:php %}
-<?php 
-	echo "coucouju";
-        while(true){
-		echo "ce code est stupide";
-	}
-        echo "coucouju";
-        while(true){
-                echo "ce code est stupide";
-        }
-
-?>
-{% endcodeblock %}
-
 #### Javascript
 {% codeblock lang:javascript %}
 x = 10;
@@ -116,8 +101,3 @@ Reference-style:
 ##### Imgur Gallery
 {% oembed https://imgur.com/gallery/Ckte9yc %}
 
-##### Youtube 
-{% oembed https://youtu.be/aVtO8uQrPXc %}
-
-##### Twitter
-{% oembed https://twitter.com/PlayStation/status/1134145873733009409 %}
