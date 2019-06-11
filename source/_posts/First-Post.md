@@ -16,6 +16,8 @@ If this is displayed; the pipeline should be flowing well.
 * A fully featured Progressive Web App working offline. 
 * Using SSL Encryption
 * Using a CDN for best delivery performances 
+* Using disqus for comments
+* Using AWS Lambda for dynamic functions
 
 [Welcome on Delsoir.com](https://www.delsoir.com)
 
@@ -23,9 +25,9 @@ If this is displayed; the pipeline should be flowing well.
 * ~~add ssl support~~ 
 * ~~use a CDN distribution~~
 * ~~PWA integration~~
-* Add dynamic functions with Lambda
+* ~~Add dynamic functions with Lambda~~
+* Customize contact form
 * theming & best practices
-* Full H2 
 
 
 ### Layout Tests 
