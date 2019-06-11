@@ -2,6 +2,9 @@
 title: about
 date: 2019-06-01 13:39:07
 ---
+You can contact me with this form but it's still in a beta mode. 
+
+
 <script>
 function submitToAPI(e) {
        e.preventDefault();
@@ -9,7 +12,7 @@ function submitToAPI(e) {
 
             var Namere = /[A-Za-z]{1}[A-Za-z]/;
             if (!Namere.test($("#name-input").val())) {
-                         alert ("Name can not less than 2 char");
+                         alert ("Your name should be longer");
                 return;
             }
             var mobilere = /[0-9]{10}/;
@@ -18,7 +21,7 @@ function submitToAPI(e) {
                 return;
             }
             if ($("#email-input").val()=="") {
-                alert ("Please enter your email id");
+                alert ("Please enter your email");
                 return;
             }
 
@@ -50,26 +53,26 @@ function submitToAPI(e) {
          
          success: function () {
            // clear form and show a success message
-           alert("Successfull");
+           alert("Your message has been sent! I'll contact you as soon as possible");
            document.getElementById("contact-form").reset();
        location.reload();
          },
          error: function () {
            // show an error message
-           alert("UnSuccessfull");
+           alert("There was a problem sending the message. Please try later or try to reach me through social media");
          }});
      }
 </script>
 
 <form id="contact-form" method="post">
-      <h4>Name:</h4>
-      <input type="text" style="height:35px;" id="name-input" placeholder="Enter name here…" class="form-control" style="width:100%;" /><br/>
+      <h4>First Name:</h4>
+      <input type="text" id="name-input" placeholder="Enter name here…" class="form-control" style="width:100%;" /><br/>
       <h4>Phone:</h4>
-      <input type="phone" style="height:35px;" id="phone-input" placeholder="Enter phone number" class="form-control" style="width:100%;"/><br/>
+      <input type="phone"id="phone-input" placeholder="Enter phone number" class="form-control" style="width:100%;"/><br/>
       <h4>Email:</h4>
-      <input type="email" style="height:35px;" id="email-input" placeholder="Enter email here…" class="form-control" style="width:100%;"/><br/>
-      <h4>How can we help you?</h4>
-      <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" style="width:100%;"></textarea><br/>
+      <input type="email" id="email-input" placeholder="Enter email here…" class="form-control" style="width:100%;"/><br/>
+      <h4>Your message:</h4>
+      <textarea id="description-input" rows="10" placeholder="Enter your message…" class="form-control" style="width:100%;"></textarea><br/>
       <div class="g-recaptcha" data-sitekey="6LfFNqgUAAAAAHtz_FXiY2aeZe5u7-KVYlU3s-Wi" class="form-control" style="width:100%;"></div>
       <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
 </form>
