@@ -28,7 +28,7 @@ If this is displayed; the pipeline should be flowing well.
 * ~~Add dynamic functions with Lambda~~
 * Customize contact form
 * theming & best practices
-
+* Test
 
 ### Layout Tests 
 Below are some features testing for blog posting. 
