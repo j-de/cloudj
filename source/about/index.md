@@ -64,6 +64,7 @@ function submitToAPI(e) {
      }
 </script>
 
+
 <form id="contact-form" method="post">
       <h4>First Name:</h4>
       <input type="text" id="name-input" placeholder="Enter name here…" class="form-control" style="width:100%;" /><br/>
@@ -73,7 +74,7 @@ function submitToAPI(e) {
       <input type="email" id="email-input" placeholder="Enter email here…" class="form-control" style="width:100%;"/><br/>
       <h4>Your message:</h4>
       <textarea id="description-input" rows="10" placeholder="Enter your message…" class="form-control" style="width:100%;"></textarea><br/>
-      <div class="g-recaptcha" data-sitekey="6LfFNqgUAAAAAHtz_FXiY2aeZe5u7-KVYlU3s-Wi" class="form-control" style="width:100%;"></div>
+      <div class="g-recaptcha" data-sitekey="6LfFNqgUAAAAAHtz_FXiY2aeZe5u7-KVYlU3s-Wi"></div>
       <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
 </form>
 
