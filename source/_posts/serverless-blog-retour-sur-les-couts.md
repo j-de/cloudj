@@ -23,17 +23,17 @@ Pour les USA et le Canada, j'ai eu peu de visites et je suis resté dans le Free
 ### Détail pour l'Europe : 
 
 Amazon CloudFront EU-Requests-Tier2-HTTPS $0.01
-$0.0120 per 10,000 HTTPS Requests => *8,837 Requests : $0.01*
+$0.0120 per 10,000 HTTPS Requests => **8,837 Requests : $0.01**
 
 Bandwidth 
-$0.085 per GB - first 10 TB / month data transfer out => *0.119 GB *$0.01*
+$0.085 per GB - first 10 TB / month data transfer out => **0.119 GB  : $0.01**
 
 
 
 ## S3, le stockage
 
 Amazon Simple Storage Service EUW3-Monitoring-Automation-INT
-$0.0025 per 1,000 Objects per month in Intelligent-Tiering  *7.467 Objects : $0.00*
+$0.0025 per 1,000 Objects per month in Intelligent-Tiering  7.467 Objects : $0.00
 
 Amazon Simple Storage Service EUW3-Requests-INT-Tier1 
 $0.0053 per 1,000 PUT, COPY, POST, or LIST requests to Intelligent-Tiering 8 Requests : $0.00
@@ -42,7 +42,7 @@ Amazon Simple Storage Service EUW3-Requests-INT-Tier2
 $0.0042 per 10,000 GET and all other requests to Intelligent-Tiering 292 Requests : $0.00
 
 Amazon Simple Storage Service EUW3-Requests-Tier1 
-$0.0053 per 1,000 PUT, COPY, POST, or LIST requests *2,365 Requests : $0.01*
+$0.0053 per 1,000 PUT, COPY, POST, or LIST requests **2,365 Requests : $0.01**
 
 Amazon Simple Storage Service EUW3-Requests-Tier2 
 $0.0042 per 10,000 GET and all other requests 6,364 Requests : 0.00
@@ -63,7 +63,7 @@ Le CDN, qui met en cache, limite les appels à S3, on ne devrait donc pas voir e
 Amazon Route 53 DNS-Queries 
 $0.40 per 1,000,000 queries for the first 1 Billion queries 3,694 Queries : $0.00
 Amazon Route 53 HostedZone 
-$0.50 per Hosted Zone for the first 25 Hosted Zones *1 HostedZone : $0.50*
+$0.50 per Hosted Zone for the first 25 Hosted Zones **1 HostedZone : $0.50**
 Amazon Route 53 Intra-AWS-DNS-Queries 
 Queries to Alias records are free of charge 2,736 Queries : $0.00 
 
