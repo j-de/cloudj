@@ -35,7 +35,7 @@ Microsoft Azure, toujours derrière, reste un sérieux concurrent. Ils ont annon
 La nouvelle version de Google Chrome qui est déployée progressivement cette semaine amène deux grosses nouveautés :
 * PWA install prompt on desktop 
 ![PWA desktop prompt][gifpwa]
-Si votre site est [compatible Progressive Web App][https://www.delsoir.com/2019/06/04/Transformer-votre-site-en-Progressive-Web-App/], la nouvelle version de Chrome propose à l'utilisateur l'installation sur son bureau. 
+Si votre site est [compatible Progressive Web App](https://www.delsoir.com/2019/06/04/Transformer-votre-site-en-Progressive-Web-App/), la nouvelle version de Chrome propose à l'utilisateur l'installation sur son bureau. 
 C'est un petit bouton "+" qui vient se loger à l'extrème droite de la barre d'adresse. 
 * Un Private Mode vraiment Private 
 Auparavant, les développeurs d'un site pouvaient détecter l'usage du mode privé / incognito et donc; par exemple; refuser d'afficher les contenus qui sont soumis à un paywall mètré ( Vous savez, ces sites où vous avez le droit à 4 articles par mois ) 
