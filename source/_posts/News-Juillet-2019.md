@@ -25,7 +25,7 @@ Quelques nouvelles marquantes du premier mois de l'été.
 ## Amazon toujours leader du marché de l'infrastructure cloud 
 
 ![Gartner Magic Quadrant IaaS 07/2019][gartner]
-Gartner a publié son fameux magic quadrant pour les vendeurs de services cloud. Sans surprise, c'est toujours AWS qui est leader et creuse l'écart. 
+Gartner a publié son fameux magic quadrant pour les vendeurs de services cloud. Sans surprise, c'est toujours AWS qui est leader et creuse l'écart avec ses concurrents. 
 Microsoft Azure, toujours derrière, reste un sérieux concurrent. Ils ont annoncé récement qu'Azure générait plus de revenus que Windows et c'est désormais plus de la moitié du workload qui est constitué de machines Linux. 
  
 [More here...](https://mspoweruser.com/microsoft-azure-continues-to-lag-behind-amazon-in-the-cloud-infrastructure-market/)
@@ -76,3 +76,6 @@ What do you think ?
 
 [gifpwa]: https://i.imgur.com/bKnJmcL.gif
 [gartner]: https://zdnet3.cbsistatic.com/hub/i/2019/07/18/de65f5b8-eb36-469c-8597-43bbc2af6a64/0d6e05e2ccdc7ee56d4212632233a7e5/gartner-iaas-2019-mq.png
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzIzMTc1NTAwXX0=
+-->
