@@ -185,7 +185,7 @@ AWS => Azure / GCP / autre hébergeur
 
 #### Les défauts 
 * N'importe qui ne peut pas administrer le blog facilement, il faut pouvoir écrire le Markdown pour rédiger des articles et connaitre git pour publier; c'est définitivement un outil pour les initiés en l'état. **MAIS** Il existe pas mal de [logiciels qui produisent du markdown][12] et on peut envisager facilement un client qui automatiserait ces processus. 
-* Aucune fonction dynamique, mais c'est aussi ce qui permet d'être complètement tranquille au niveau sécurité et stabilité. Les eventuelles fonctionnalités dynamiques devront etre gérées par des microservices dédiés comme le veut l'architecture. 
+* Aucune fonction dynamique, mais c'est aussi ce qui permet d'être complètement tranquille au niveau sécurité et stabilité. Les eventuelles fonctionnalités dynamiques devront être gérées par des microservices dédiés comme le veut l'architecture. 
 * A grande échelle (site avec des milliers/millions d'articles-pages-tags-categories et de nombreux éditeurs), la publication faite par Hexo risque de prendre beaucoup de temps et donc de limiter la vitesse de publication d'un article. 30 secondes, c'est de toute manière déja trop pour un éditeur professionnel. 
 
 La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre homescreen et celui ci fonctionnera offline sur votre smartphone. Je vous envoie donc ces lignes avec 
@@ -218,5 +218,6 @@ La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre ho
 [hexo-log]: https://oded.blog/images/2017/07/hexo-logo.png
 [cloudj1]: https://i.imgur.com/EeQuMM7.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjM2MzI1OSw0Nzg0Mjc3NjNdfQ==
+eyJoaXN0b3J5IjpbLTE5OTc1Njc1MjAsLTUyNjM2MzI1OSw0Nz
+g0Mjc3NjNdfQ==
 -->
