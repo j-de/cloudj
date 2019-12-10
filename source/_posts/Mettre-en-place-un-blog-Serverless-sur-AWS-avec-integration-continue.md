@@ -84,7 +84,7 @@ Amazon S3 (pour Simple Storage Service) permet de stocker dans un "bucket" vos f
 
 
 
-**NB: votre bucket doit avoir exactement le même nom que le domaine qui va pointer dessus : ici, www.delsoir.com, donc.** Pensez donc à vérifier que le bucket est toujours disponible avant de réserver votre nom de d
+**NB: votre bucket doit avoir exactement le même nom que le domaine qui va pointer dessus : ici, www.delsoir.com, donc.** Pensez donc à vérifier que le bucket est toujours disponible avant de réserver votre nom de domaine. 
 
 L'architecture que voici est donc ultra simple :  
 
@@ -217,5 +217,5 @@ La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre ho
 [hexo-log]: https://oded.blog/images/2017/07/hexo-logo.png
 [cloudj1]: https://i.imgur.com/EeQuMM7.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDgyNTE1Nl19
+eyJoaXN0b3J5IjpbNDc4NDI3NzYzXX0=
 -->
