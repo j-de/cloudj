@@ -37,7 +37,7 @@ La nouvelle version de Google Chrome qui est déployée progressivement cette se
 ![PWA desktop prompt][gifpwa]
 Si votre site est [compatible Progressive Web App](https://www.delsoir.com/2019/06/04/Transformer-votre-site-en-Progressive-Web-App/), la nouvelle version de Chrome propose à l'utilisateur l'installation sur son bureau. 
 C'est un petit bouton "+" qui vient se loger à l'extrème droite de la barre d'adresse. 
-* Un Private Mode vraiment Private 
+* Un Private Mode complètement Private 
 Auparavant, les développeurs d'un site pouvaient détecter l'usage du mode privé / incognito et donc; par exemple; refuser d'afficher les contenus qui sont soumis à un paywall mètré ( Vous savez, ces sites où vous avez le droit à 4 articles par mois ) 
 Il est possible que cela fasse grincer des dents dans la presse en ligne... 
 * Le Flash est désormais désactivé par défaut ('bout time)
@@ -77,6 +77,6 @@ What do you think ?
 [gifpwa]: https://i.imgur.com/bKnJmcL.gif
 [gartner]: https://zdnet3.cbsistatic.com/hub/i/2019/07/18/de65f5b8-eb36-469c-8597-43bbc2af6a64/0d6e05e2ccdc7ee56d4212632233a7e5/gartner-iaas-2019-mq.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEyNDQxNzIsOTMwMTgwOTAyLDcyMz
-E3NTUwMF19
+eyJoaXN0b3J5IjpbMTU5NzMxMDM0OCw5MzAxODA5MDIsNzIzMT
+c1NTAwXX0=
 -->
