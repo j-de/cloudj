@@ -5,7 +5,7 @@ tags:
   - Covid19
   - Belgique
 category:
-  - Other
+  - News
 ---
 
 # Coronavirus : réagissez, ne bougez plus! 
@@ -21,5 +21,5 @@ text text text text text text text text text text text text text text text text 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzEwNTU3NDAsNTY5MjE3MDMwXX0=
+eyJoaXN0b3J5IjpbLTE2NTEyNzcxNTEsNTY5MjE3MDMwXX0=
 -->
