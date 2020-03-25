@@ -8,9 +8,8 @@ category:
   - News
 ---
 
-Conference de presse de ce midi : 
 {% oembed https://www.youtube.com/watch?v=9knHbzXAeIQ %}
-
+Conference de presse Santé Belgique 2020/03/25
 
 <!-- more -->
 
@@ -18,6 +17,6 @@ text text text text text text text text text text text text text text text text 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTc0MDM3MywyNTczNTA2MDgsNDcwOD
-U3MjUzLC0xNjUxMjc3MTUxXX0=
+eyJoaXN0b3J5IjpbNTYzMzUzMTM4LDI1NzM1MDYwOCw0NzA4NT
+cyNTMsLTE2NTEyNzcxNTFdfQ==
 -->
