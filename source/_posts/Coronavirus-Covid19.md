@@ -8,10 +8,8 @@ category:
   - News
 ---
 
-# Coronavirus : réagissez, ne bougez plus! 
-
 Conference de presse de ce midi : 
-[% oembed https://www.youtube.com/watch?v=9knHbzXAeIQ %]
+{% oembed https://www.youtube.com/watch?v=9knHbzXAeIQ %}
 
 
 <!-- more -->
@@ -20,6 +18,6 @@ text text text text text text text text text text text text text text text text 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MzUwNjA4LDQ3MDg1NzI1MywtMTY1MT
-I3NzE1MV19
+eyJoaXN0b3J5IjpbMTgzMTc0MDM3MywyNTczNTA2MDgsNDcwOD
+U3MjUzLC0xNjUxMjc3MTUxXX0=
 -->
