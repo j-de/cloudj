@@ -8,6 +8,7 @@ category:
   - News
 ---
 
+
 {% oembed https://www.youtube.com/watch?v=9knHbzXAeIQ %}
 Conference de presse Santé Belgique 2020/03/25
 
@@ -19,6 +20,6 @@ Conference de presse Santé Belgique 2020/03/25
 [gocar-amendes]: https://gocar.be/fr/actu-auto/actualite/quelle-amende-si-vous-prenez-votre-voiture-pour-une-raison-non-essentielle
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTY0MDQ4NSw1NjMzNTMxMzgsMjU3Mz
+eyJoaXN0b3J5IjpbMTY4OTc4MjU0Nyw1NjMzNTMxMzgsMjU3Mz
 UwNjA4LDQ3MDg1NzI1MywtMTY1MTI3NzE1MV19
 -->
