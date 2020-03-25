@@ -15,9 +15,10 @@ Conference de presse Santé Belgique 2020/03/25
 
 [Amendes en voiture][gocar-amendes]
 
+[lesoir-chiffres]: https://www.lesoir.be/289880/article/2020-03-25/coronavirus-434-nouvelles-hospitalisations-en-24-heures-et-178-deces-au-total-en
 [gocar-amendes]: https://gocar.be/fr/actu-auto/actualite/quelle-amende-si-vous-prenez-votre-voiture-pour-une-raison-non-essentielle
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mzg3NTY0LDU2MzM1MzEzOCwyNTczNT
-A2MDgsNDcwODU3MjUzLC0xNjUxMjc3MTUxXX0=
+eyJoaXN0b3J5IjpbMTA4OTY0MDQ4NSw1NjMzNTMxMzgsMjU3Mz
+UwNjA4LDQ3MDg1NzI1MywtMTY1MTI3NzE1MV19
 -->
