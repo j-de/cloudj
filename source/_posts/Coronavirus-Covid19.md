@@ -15,8 +15,8 @@ Conference de presse Santé Belgique 2020/03/25
 
 text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
 
-
+[gocar-amendes]https://gocar.be/fr/actu-auto/actualite/quelle-amende-si-vous-prenez-votre-voiture-pour-une-raison-non-essentielle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzMzUzMTM4LDI1NzM1MDYwOCw0NzA4NT
-cyNTMsLTE2NTEyNzcxNTFdfQ==
+eyJoaXN0b3J5IjpbMTUwNDE4MTkzMyw1NjMzNTMxMzgsMjU3Mz
+UwNjA4LDQ3MDg1NzI1MywtMTY1MTI3NzE1MV19
 -->
