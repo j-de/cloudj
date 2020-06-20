@@ -133,7 +133,7 @@ toolbox.router.any(/\//, toolbox.networkFirst);
 
 On peut voir que la page d'accueil, la css et les derniers posts sont automatiquement mis en cache lorsqu'on arrive sur le site. 
 
-On définit ensuite grace à toolbox les strategies de caching pour chaque type de route : 
+On définit ensuite grace à toolbox régler les stratégies de caching pour chaque type de route : 
 * cacheFirst
 * networkFirst 
 * networkOnly

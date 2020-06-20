@@ -59,6 +59,11 @@ WORK IN PROGRESS
 * [Installez DDEV][install-ddev]
 * [Tester Drupal 9 avec DDEV][d9-ddev]
 
+
+## Plus sur Docker 
+Video de NetworkChuck sur les bases de Docker et ses avantages 
+{%oembed https://www.youtube.com/watch?v=eGz9DS-aIeY 600 %}
+
 [docker-site]: http://docker.com
 [ddev-site]: http://ddev.com
 [ddev-logo]: https://i.imgur.com/kxbImam.png
