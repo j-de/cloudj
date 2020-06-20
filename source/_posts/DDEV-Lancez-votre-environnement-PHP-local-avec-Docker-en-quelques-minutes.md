@@ -69,6 +69,14 @@ Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relat
 
 * [Installez DDEV][install-ddev]
 * [Tester Drupal 9 avec DDEV][d9-ddev]
+## COMMANDS 
+{% codeblock lang:bash %}
+> ddev config
+{% endcodeblock %}
+
+{% codeblock lang:bash %}
+> ddev start
+{% endcodeblock %}
 
 
 ## TL;DR;
