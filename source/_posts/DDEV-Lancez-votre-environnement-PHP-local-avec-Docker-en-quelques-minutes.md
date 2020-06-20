@@ -1,7 +1,13 @@
 ---
 title: 'DDEV : Lancez votre environnement PHP local avec Docker en quelques minutes'
 date: 2020-06-20 13:41:43
-tags:
+tags: 
+  - PHP
+  - Drupal
+  - DDEV 
+  - Docker
+category:
+  - Architecture
 ---
 ![ddev-logo]
 
