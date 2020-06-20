@@ -62,7 +62,7 @@ WORK IN PROGRESS
 
 ## Plus sur Docker 
 Video de NetworkChuck sur les bases de Docker et ses avantages 
-{%oembed https://www.youtube.com/watch?v=eGz9DS-aIeY 600 %}
+{% oembed https://www.youtube.com/watch?v=eGz9DS-aIeY 600 %}
 
 [docker-site]: http://docker.com
 [ddev-site]: http://ddev.com
