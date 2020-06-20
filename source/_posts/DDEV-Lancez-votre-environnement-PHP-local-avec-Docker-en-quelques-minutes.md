@@ -24,10 +24,9 @@ Si vous avez bossé dans le web pendant quelques années; vous avez certainement
 Dans la plupart des cas, vous faites fonctionner l'ensemble avec XAMP sur Windows, MAMP sur OSX ou vous avez tout installé à la main sous Linux si comme moi, vous avez le goût d'apprendre sous la torture. 
 Dans les 3 cas, vous avez un serveur web unique installé sur votre machine et vous le configurez / déconfigurez / reconfigurez au gré des projets. 
 
-Vous activez l'option X pour vous débarasser de l'erreur 1 du projet A. Et sans vous en rendre compte, vous venez d'introduire le problème 2 dans le projet B qui vous attendra bien au chaud quelques mois le temps que votre client ait besoin d'une modification "simple en toute urgence". 
+Vous activez l'option X pour vous débarasser de l'erreur 1 du projet A. Et sans vous en rendre compte, vous venez d'introduire le problème 2 dans le projet B qui vous attendra bien au chaud quelques mois le temps que client B ait besoin d'une modification *"simple en toute urgence"*. 
 
 Plus vous avez de projets, plus vous maintenez un même environnement unique, plus les problèmes se multiplieront: c'est inévitable. 
-
 
 
 ## Docker à la rescousse 
@@ -41,7 +40,7 @@ Bien que ce soit litt-é-ra-le-ment révolutionnaire, je ne compte pas m'étendr
 
 #### Mais Docker, c'est pas si simple
 C'est ce qui m'a fait me tourner vers Docker mais malheureusement, ce n'était pas si simple. J'ai vite compris qu'il faudrait :
-* gérer plusieurs containers différents
+* gérer plusieurs containers différents pour un meme environnement ( php sans mysql, ce n'est pas si fun )
 * leur donner la possibilité de communiquer entre eux 
 * s'assurer de leur persistance une fois qu'ils sont arrêtés. 
   
