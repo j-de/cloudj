@@ -3,6 +3,7 @@ title: 'DDEV : Lancez votre environnement PHP local avec Docker en quelques minu
 date: 2020-06-20 13:41:43
 tags:
 ---
+![ddev-logo]
 
 Si vous avez bossé dans le web pendant quelques années; vous avez certainement de nombreux projets PHP installés sur votre machine et vous avez certainement rencontré les problèmes suivants : 
 
@@ -49,6 +50,7 @@ Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relat
 WORK IN PROGRESS
 
 
-
+[ddev-logo]: https://i.imgur.com/kxbImam.png
+[install-ddev]: https://ddev.readthedocs.io/en/stable/
 
 
