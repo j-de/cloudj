@@ -54,15 +54,24 @@ Et puis, ce mois ci, je suis tombé sur DDEV qui fait ce que j'imaginais avec me
 
 Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relativement standard et extensible. 
 
-WORK IN PROGRESS
+
+
+--- WORK IN PROGRESS ---
 
 * [Installez DDEV][install-ddev]
 * [Tester Drupal 9 avec DDEV][d9-ddev]
 
 
-## Plus sur Docker 
-Video de NetworkChuck sur les bases de Docker et ses avantages 
+## TL;DR;
+
+
+## Plus
+
+### ... sur Docker 
+Video de NetworkChuck sur les bases de Docker et ses avantages (Anglais)
 {% oembed https://www.youtube.com/watch?v=eGz9DS-aIeY 600 %}
+
+{% oembed https://www.youtube.com/watch?v=A5qH8RzgiF0 600 %}
 
 [docker-site]: http://docker.com
 [ddev-site]: http://ddev.com
