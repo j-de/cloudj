@@ -46,6 +46,7 @@ DDEV est un outil simple en ligne de commande qui va vous permettre d'instancier
 
 Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relativement standard et extensible. 
 
+WORK IN PROGRESS
 
 
 
