@@ -25,7 +25,7 @@ Dans la plupart des cas, vous faites fonctionner l'ensemble avec XAMP sur Window
 Dans les 3 cas, vous avez un serveur web unique installé sur votre machine et vous le configurez / déconfigurez / reconfigurez au gré des projets. 
 
 Vous activez l'option X pour vous débarasser de l'erreur 1 du projet A. Et sans vous en rendre compte, vous venez d'introduire le problème 2 dans le projet B qui vous attendra bien au chaud quelques mois le temps que client B ait besoin d'une modification *"simple en toute urgence"*. 
-
+-ddev-
 Plus vous avez de projets, plus vous maintenez un même environnement unique, plus les problèmes se multiplieront: c'est inévitable. 
 
 
@@ -60,8 +60,15 @@ Et puis, ce mois ci, je suis tombé sur DDEV qui fait ce que j'imaginais avec me
 ## DDEV 
 
 [DDEV][ddev-site] est un outil simple en ligne de commande qui va vous permettre d'instancier automatiquement les conteneurs nécessaires pour disposer d'une stack locale pré-configurée en fonction de votre projet. 
-
 Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relativement standard et extensible. 
+
+J'ai découvert DDEV en voulant tester Drupal 9 qui est sorti début juin; une documentation de comment installer D9 avec DDEV se trouve sur le [site officiel de Drupa][d9-ddev]. Comme d'habitude; je ne vais pas réecrire ce qui existe déja, si vous voulez faire ce test; suivez [le lien][d9-ddev]
+
+
+
+
+
+
 
 
 
@@ -71,11 +78,11 @@ Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relat
 * [Tester Drupal 9 avec DDEV][d9-ddev]
 ## COMMANDS 
 {% codeblock lang:bash %}
-> ddev config
+ddev config
 {% endcodeblock %}
 
 {% codeblock lang:bash %}
-> ddev start
+ddev start
 {% endcodeblock %}
 
 
