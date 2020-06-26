@@ -62,7 +62,7 @@ Et puis, ce mois ci, je suis tombé sur DDEV qui fait ce que j'imaginais avec me
 [DDEV][ddev-site] est un outil simple en ligne de commande qui va vous permettre d'instancier automatiquement les conteneurs nécessaires pour disposer d'une stack locale pré-configurée en fonction de votre projet. 
 Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relativement standard et extensible. 
 
-J'ai découvert DDEV en voulant tester Drupal 9 qui est sorti début juin; une documentation de comment installer D9 avec DDEV se trouve sur le [site officiel de Drupa][d9-ddev]. Comme d'habitude; je ne vais pas réecrire ce qui existe déja, si vous voulez faire ce test; suivez [le lien][d9-ddev]
+J'ai découvert DDEV en voulant tester Drupal 9 qui est sorti début juin; une documentation de comment installer D9 avec DDEV se trouve sur le [site officiel de Drupal][d9-ddev]. Comme d'habitude; je ne vais pas réecrire ce qui existe déja, si vous voulez faire ce test; suivez [le lien][d9-ddev]
 
 
 
