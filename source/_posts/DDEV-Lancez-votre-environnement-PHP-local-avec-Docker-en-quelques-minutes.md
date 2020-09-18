@@ -64,15 +64,12 @@ Sous le capot; il utilise Docker & Docker Compose; ce qui en fait un outil relat
 
 J'ai découvert DDEV en voulant tester Drupal 9 qui est sorti début juin; une documentation de comment installer D9 avec DDEV se trouve sur le [site officiel de Drupal][d9-ddev]. Comme d'habitude; je ne vais pas réecrire ce qui existe déja, si vous voulez faire ce test; suivez [le lien][d9-ddev]
 
+**NEXT** migrer un projet existant sur ddev
 
 
 
 
 
-
-
-
---- WORK IN PROGRESS ---
 
 * [Installez DDEV][install-ddev]
 * [Tester Drupal 9 avec DDEV][d9-ddev]
@@ -106,3 +103,6 @@ Présentation de DDEV au Drupal Camp Colorado en 2019 (Anglais)
 [d9-ddev]: https://www.drupal.org/docs/official_docs/en/_local_development_guide.html
 [docker-logo]: https://w7.pngwing.com/pngs/256/416/png-transparent-docker-github-node-js-mongodb-computer-software-github-blue-marine-mammal-logo.png
 [dockerc-link]: https://docs.docker.com/compose/
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTcyNzY0NzMxMF19
+-->
