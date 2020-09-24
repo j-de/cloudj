@@ -7,11 +7,8 @@ category:
   - Culture
 ---
 ![Music!][gmusic]
-Some music I liked recently 
 
 <!-- more --> 
-
-C'est beaucoup d'électronique mais c'est mon trip du moment; donc passez votre chemin si ca ne vous plait pas ;-p
 
 ## N'to - The Morning After 
 {% oembed https://www.youtube.com/watch?v=QDFXIe3eyWg %}
@@ -42,3 +39,6 @@ En hommage à [Niki Lauda][1] décédé la semaine dernière
 
 [gmusic]: https://i.imgur.com/LOK1J7p.jpg
 [1]: https://en.wikipedia.org/wiki/Niki_Lauda
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTc1MTg5NjU0Ml19
+-->
