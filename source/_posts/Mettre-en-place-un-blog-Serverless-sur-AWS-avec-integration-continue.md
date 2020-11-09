@@ -1,5 +1,5 @@
 ---
-title: Mettre en place un blog Serverless sur AWS avec intégration continue
+title: Mettre en place un blog Serverless sur AWS avec Intégration Continue
 date: 2019-06-03 11:29:42
 tags: 
   - AWS
@@ -218,6 +218,6 @@ La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre ho
 [hexo-log]: https://oded.blog/images/2017/07/hexo-logo.png
 [cloudj1]: https://i.imgur.com/EeQuMM7.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc1Njc1MjAsLTE5OTc1Njc1MjAsLT
-UyNjM2MzI1OSw0Nzg0Mjc3NjNdfQ==
+eyJoaXN0b3J5IjpbMTQxNjQ5NzU2OCwtMTk5NzU2NzUyMCwtMT
+k5NzU2NzUyMCwtNTI2MzYzMjU5LDQ3ODQyNzc2M119
 -->
