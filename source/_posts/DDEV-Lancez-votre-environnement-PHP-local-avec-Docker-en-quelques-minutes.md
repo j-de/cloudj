@@ -1,5 +1,5 @@
 ---
-title: 'DDEV : Lancez votre environnement PHP local avec Docker en quelques minutes'
+title: 'DDEV : Lancez un environnement PHP local avec Docker en quelques minutes'
 date: 2020-06-20 13:41:43
 tags: 
   - PHP
@@ -104,5 +104,5 @@ Présentation de DDEV au Drupal Camp Colorado en 2019 (Anglais)
 [docker-logo]: https://w7.pngwing.com/pngs/256/416/png-transparent-docker-github-node-js-mongodb-computer-software-github-blue-marine-mammal-logo.png
 [dockerc-link]: https://docs.docker.com/compose/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzY0NzMxMF19
+eyJoaXN0b3J5IjpbLTE1OTc3NDI5NDksLTcyNzY0NzMxMF19
 -->
