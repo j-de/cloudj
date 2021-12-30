@@ -83,9 +83,6 @@ ddev start
 {% endcodeblock %}
 
 
-## TL;DR;
-
-
 ## Plus
 
 ### ... sur Docker 
