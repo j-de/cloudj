@@ -215,7 +215,7 @@ La prochaine fois, on parlera PWA; vous pouvez déja ajouter ce site à votre ho
 [delsoircom-v1]: https://i.imgur.com/8y0iWrc.png
 [onlyone]: https://i.imgur.com/kSBNkPr.png
 [circleCI-workflow]: https://i.imgur.com/1hBpup1.png
-[hexo-log]: https://oded.blog/images/2017/07/hexo-logo.png
+[hexo-log]: https://blog.getform.io/content/images/2019/10/hexo-cover-01-800x450.png
 [cloudj1]: https://i.imgur.com/EeQuMM7.png
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTQxNjQ5NzU2OCwtMTk5NzU2NzUyMCwtMT
